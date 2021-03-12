@@ -1,0 +1,5 @@
+on boot
+    # Enable Decision Point screen during setup flow
+    setprop setupwizard.feature.baseline_setupwizard_enabled true
+    # Default mobile data to false during setup flow
+    setprop ro.com.android.prov_mobiledata false
