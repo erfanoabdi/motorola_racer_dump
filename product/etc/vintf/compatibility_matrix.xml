@@ -1,0 +1,55 @@
+<!--
+    Input:
+        moto_fw_product_compatibility_matrix.xml
+        framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="2.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>com.motorola.hardware.biometric.fingerprint</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotoFingerPrint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>com.motorola.hardware.display.touch</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotTouch</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>motorola.hardware.audio.adspd</name>
+        <version>1.0</version>
+        <interface>
+            <name>IADSP</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>motorola.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>motorola.hardware.wifi.supplicant</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISupplicantMot</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <version>2.1</version>
+        <interface>
+            <name>IGoodixFingerprintDaemon</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

@@ -1,0 +1,5 @@
+bootRE/boot.elf
+recovery.img
+product/priv-app/Velvet/Velvet.apk
+product/priv-app/MotCamera2/MotCamera2.apk
+system/system/apex/com.android.vndk.current.apex

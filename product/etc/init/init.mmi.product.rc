@@ -1,0 +1,2 @@
+on property:ro.vendor.hw.ram=6GB
+    setprop ro.MAX_HIDDEN_APPS 42

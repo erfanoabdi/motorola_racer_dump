@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <required-managed-device package="com.motorola.motolights"/>
+    <required-managed-user package="com.motorola.motolights"/>
+</config>
+

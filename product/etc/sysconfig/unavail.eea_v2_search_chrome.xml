@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <unavailable-feature name="com.google.android.feature.EEA_DEVICE" prop="ro.mot.enable_eea_features" />
+    <unavailable-feature name="com.google.android.feature.EEA_V2_DEVICE" prop="ro.mot.enable_eea_features" />
+    <unavailable-feature name="com.google.android.paid.search" prop="ro.mot.enable_eea_features" />
+    <unavailable-feature name="com.google.android.paid.chrome" prop="ro.mot.enable_eea_features" />
+</config>

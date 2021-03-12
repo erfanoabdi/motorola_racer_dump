@@ -1,0 +1,6 @@
+(typeattributeset vendor_hal_systemhelper_hwservice_30_0 (vendor_hal_systemhelper_hwservice))
+(expandtypeattribute (vendor_hal_systemhelper_hwservice_30_0) true)
+(typeattribute vendor_hal_systemhelper_hwservice_30_0)
+(typeattributeset vendor_systemhelper_app_30_0 (vendor_systemhelper_app))
+(expandtypeattribute (vendor_systemhelper_app_30_0) true)
+(typeattribute vendor_systemhelper_app_30_0)
