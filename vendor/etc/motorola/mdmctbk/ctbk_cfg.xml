@@ -1,0 +1,28 @@
+<xml>
+    <ctbk_version>100</ctbk_version>
+    <wifi_tx_pwr_mimo>
+          <!-- (10 plimit)2.4G tx0,2.4G tx1,5G TX0_B1,5G TX0_B2,5G TX0_B3,5G TX0_B4,,5G TX1_B1,5G TX1_B2,5G TX1_B3,5G TX1_B4-->
+		<Default  index="0">44,44,44,44,44,44,44,44,44,44</Default> <!--default, Max-->
+        <State1   index="1">24,24,26,26,28,28,28,28,30,30</State1>  <!--WLAN + Top ANT TX-->
+        <State2   index="2">44,44,44,44,44,32,44,44,44,32</State2>  <!--WLAN + Bottom ANT TX-->
+        <State3   index="3">26,26,24,24,24,24,24,24,24,24</State3>  <!--HotSpot + Top ANT TX-->
+        <State4   index="4">26,26,24,24,24,24,24,24,24,24</State4>  <!--HotSpot + Bottom ANT TX-->
+        <State5   index="5">44,44,44,44,44,32,44,44,44,32</State5>  <!--WLAN Standalone Head(earpice on)-->
+        <State6   index="6">24,24,26,26,28,28,28,28,30,30</State6>  <!--WLAN + Top ANT TX Head(earpice on)-->
+        <State7   index="7">44,44,44,44,44,32,44,44,44,32</State7>  <!--WLAN + Bottom ANT TX Head(earpice on)-->
+        <State8   index="8">34,34,32,32,32,32,32,32,32,32</State8>  <!--WLAN Standalone Body Worn(OB5)-->
+        <State9   index="9">24,24,26,26,28,28,28,28,30,30</State9>  <!--WLAN + Top ANT TX Body Worn(OB5)-->
+        <State10  index="10">34,34,32,32,32,32,32,32,32,32</State10> <!-- WLAN + Bottom ANT TX Body Worn(OB5)-->
+    </wifi_tx_pwr_mimo>
+     <sar_sensors>
+        <sensor type="prox_front"           index="0">tcs37030 Proximity Sensor Wakeup</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <!--from back view-->
+        <sensor type="cap_bottom"           index="2">Moto CapSense Ch1</sensor>
+        <sensor type="cap_top_right"        index="3">Moto CapSense Ch0</sensor>
+        <sensor type="cap_top"              index="4">NULL</sensor>
+        <sensor type="no sensor here"       index="5">NULL</sensor>
+    </sar_sensors>
+    <!--OB5 config: 3 = 0000011b (cap_bottom_center|cap_top)-->
+    <ob5_sensor_config>3</ob5_sensor_config>
+</xml>

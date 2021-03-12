@@ -1,0 +1,14 @@
+on property:init.svc.vendor.stflashtool=stopped && property:ro.vendor.hw.nfc=true
+    start vendor.nfc_hal_service
+
+on property:init.svc.vendor.stflashtool=stopped && property:ro.vendor.hw.nfc=st
+    start vendor.nfc_hal_service
+
+on property:init.svc.vendor.stflashtool=stopped && property:ro.vendor.hw.nfc=ese_st
+    start vendor.nfc_hal_service
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.st
+    class hal
+    user nfc
+    group nfc
+    disabled

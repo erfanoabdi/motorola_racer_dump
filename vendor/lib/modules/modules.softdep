@@ -1,0 +1,3 @@
+# Soft dependencies extracted from modules themselves.
+softdep cirrus_madera pre: madera
+softdep cirrus_cs47l35 pre: madera irq-madera arizona-micsupp

@@ -1,0 +1,7 @@
+<DISPLAY_BORDER_LINE_SETTINGS>,START_X=129-1079-952-0,START_Y=0-129-2339-2212,STOP_X=955-1079-126-0,STOP_Y=0-2214-2339-126,DEFAULT_COUNT=256
+<DISPLAY_BORDER_ARC_SETTINGS>,START_X=1-952-1079-129-133-166-133-100,START_Y=129-1-2211-2339-25-58-91-58,STOP_X=129-1079-952-1-166-133-100-133,STOP_Y=1-129-2339-2211-58-91-58-25,RADIUS=130-130-130-130-33-33-33-33
+com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder
+com.motorola.motocit.display.testPatterns.BlackPattern
+com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2
+com.motorola.motocit.touchscreen.Touch_MXT224
+com.motorola.motocit.goodix.g5.G5SPMTActivity
